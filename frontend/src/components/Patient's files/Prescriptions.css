@@ -1,0 +1,46 @@
+/* MAIN PAGE */
+.prescriptions-page {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+/* HEADER */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3f6ccf;
+  padding: 18px 40px;
+}
+
+.page-header h2 {
+  margin: 0;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.back-btn {
+    background: transparent;
+    color: white;
+    width: 80px;
+    padding: 6px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-btn:hover {
+  opacity: 0.8;
+}
+
+/* CONTENT */
+.prescriptions-content {
+  padding: 40px 80px;
+}

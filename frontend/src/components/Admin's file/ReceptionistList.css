@@ -1,0 +1,127 @@
+.staff-container {
+  background: white;
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* BLUE HEADER BAR */
+.staff-header-bar {
+  background-color: #2563eb;
+  color: white;
+  padding: 20px 30px;
+  margin: -40px -60px 40px -60px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.staff-header-bar h2{
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* TABLE */
+.staff-table {
+  width: 100%;
+}
+
+/* ROWS */
+.staff-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 10px;
+  border-bottom: 1px solid #e5e7eb;
+  background: white;
+  color: rgb(25, 21, 233);
+}
+
+.staff-row:hover{
+  background:#f8fafc;
+}
+
+/* HEADER ROW */
+.staff-header {
+
+  font-weight: 600;
+  border-bottom: 2px solid #2563eb;
+}
+
+/* COLUMN WIDTH */
+.staff-row span {
+  flex: 1;
+}
+
+/* .staff-row span:nth-child(2) {
+  flex: 2;
+}
+
+.staff-row span:nth-child(3) {
+  text-align: right;
+} */
+
+/* BACK BUTTON */
+.back-btn {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #1e40af; /* Darker blue on hover */
+  color: #ffffff; /* Keep text white */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

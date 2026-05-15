@@ -1,0 +1,128 @@
+.medical-records-container {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 40px;
+}
+
+
+.back-btn:hover {
+  background: #3566d6;
+}
+
+.medical-heading {
+  text-align: center;
+  color: #2563eb;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 28px;
+}
+
+.medical-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2563eb;
+    color: white;
+    padding: 0 30px;
+    margin: -30px -30px 20px -20px;
+    height: 100px;
+}
+
+.medical-form {
+  max-width: 450px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.medical-form input,
+.medical-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.file-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.save-btn {
+  background: #2563eb;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #1d4ed8;
+}
+
+/* BLUE HEADER */
+.medical-header {
+  background: #3566d6;
+  color: white;
+  padding: 18px 30px;
+  position: relative;   /* IMPORTANT */
+}
+
+.medical-header h2 {
+  margin: 0;
+}
+
+
+/* TOP RIGHT BACK BUTTON */
+.medical-back-btn {
+  position: absolute;   /* MAGIC */
+  right: 25px;
+  top: 20px;
+
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.medical-back-btn {
+    background: #3566d6;
+    color: white;
+    width: 80px;
+    padding: 18px  20px ;
+    margin: 3px 3px 2px 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

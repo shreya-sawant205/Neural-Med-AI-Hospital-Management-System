@@ -1,0 +1,109 @@
+.view-prescription {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 30px;
+}
+
+/* Header */
+.prescription-header {
+  background: #2f64d6;
+  padding: 18px 25px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.prescription-header h2 {
+  color: white;
+  margin: 0;
+}
+
+/* Back button */
+.back-btn {
+  background: white;
+  color: #2f64d6;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.back-btn:hover {
+  background: #f0f4ff;
+}
+
+/* Table */
+.prescription-table {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Header Row */
+.table-header {
+  display: flex;
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.table-header span {
+  flex: 1;
+}
+
+/* Data Rows */
+.table-row {
+  display: flex;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.table-row span {
+  flex: 1;
+  color: black;
+}
+
+.prescribed-btn {
+  background: #2f64d6;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.prescribed-btn:hover {
+  background: #1e4db7;
+}
+
+.table-header,
+.table-row {
+  display: grid;
+  grid-template-columns: 1.5fr 1.2fr 2fr 2fr 1fr;
+  align-items: center;
+}
+
+.popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #22c55e;
+  color: white;
+  padding: 14px 22px;
+  border-radius: 8px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  animation: fadeInOut 2s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-20px); }
+  20% { opacity: 1; transform: translateY(0); }
+  80% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-20px); }
+}

@@ -1,0 +1,150 @@
+.book-appointment {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 40px;
+}
+
+.book-appointment h2 {
+  color: #2563eb;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.book-appointment form {
+  max-width: 450px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.book-appointment select,
+.book-appointment input,
+.book-appointment textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.book-appointment textarea {
+  resize: none;
+  height: 90px;
+}
+
+.book-appointment button {
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.book-appointment select,
+.book-appointment input,
+.book-appointment textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+.time-group {
+  display: flex;
+  gap: 10px;
+}
+
+.time-group select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.back-btn {
+  background-color: #ccc;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #b3b3b3;
+}
+.id-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.id-group input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Small generate ID button */
+.generate-id-btn {
+  width: 30% !important;        /* change from 50% to 30% */
+  padding: 6px 12px;       
+  font-size: 13px;         
+  background-color: #0b5ed7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.generate-id-btn:hover {
+  background-color: #084298;
+}
+/* ID row */
+.id-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+/* Generated ID box */
+.id-box {
+  flex: 1;                  /* takes remaining space */
+  padding: 8px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

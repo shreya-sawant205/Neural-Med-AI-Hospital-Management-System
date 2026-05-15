@@ -1,0 +1,84 @@
+.doctor-medical-page {
+  padding: 20px;
+  background: #f4f7fb;
+  min-height: 100vh;
+}
+
+.doctor-medical-header {
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.doctor-medical-header button {
+  background: white;
+  color: #2563eb;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.record-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.record-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.download-btn {
+  margin-top: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.no-record {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+);

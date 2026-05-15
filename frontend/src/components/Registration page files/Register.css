@@ -1,0 +1,200 @@
+/* Full page center */
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background: linear-gradient(to right, #0b5ed7, #198754);
+  font-family: Arial, sans-serif;
+}
+
+/* Card */
+.register-card {
+  background: white;
+  padding: 30px;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.register-card h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Inputs & select */
+.register-card select,
+.register-card input,
+.register-card textarea {
+  width: 100%;
+  height: 42px;               /* ⭐ THIS fixes size */
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.register-card select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+/* Button */
+.register-card button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.register-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Login redirect text */
+.register-card p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.register-card span {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.register-card span:hover {
+  text-decoration: underline;
+}
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-link span {
+  color: #065cb7;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-link span:hover {
+  text-decoration: underline;
+}
+.username-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.generate-btn {
+  width: 130px;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.generate-btn:hover {
+  background-color: #1e4fd8;
+}
+
+.username-row input {
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

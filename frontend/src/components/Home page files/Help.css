@@ -1,0 +1,93 @@
+/* MAIN PAGE */
+.help-container {
+  padding: 20px;
+}
+
+/* BLUE HEADER BAR */
+.help-header {
+  background-color: #2f64d6;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Remove default margin */
+.help-header h1 {
+  margin: 0;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  background-color: white;
+  color: #2f64d6;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.back-btn:hover {
+  background-color: #278ed7;
+  color: white;
+}
+
+/* CONTENT */
+.help-content {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* VIDEO */
+.ppt-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.help-content {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 1.6;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+video {
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+.help-content h3 {
+  margin-top: 20px;
+  color: #2f64d6;
+}
+.help-content h2 {
+  margin-top: 20px;
+  color: #2f64d6;
+}   
+/* BLACK BOOK SECTION */
+.blackbook-section {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.view-btn {
+  padding: 10px 20px;
+  background-color: #2f64d6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.view-btn:hover {
+  background-color: #1e4bb8;
+}

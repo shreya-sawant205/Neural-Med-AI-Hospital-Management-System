@@ -1,0 +1,32 @@
+.profile-section {
+  margin-top: 30px;
+  width: 100%;
+  padding: 0 20px;   /* small left-right spacing */
+}
+
+
+/* PROFILE CARD FULL WIDTH */
+.patient-profile-card {
+  width: 100%;
+  background: #f4f7fb;
+  border-radius: 16px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+/* PROFILE IMAGE */
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+/* PROFILE INFO */
+.profile-info h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}

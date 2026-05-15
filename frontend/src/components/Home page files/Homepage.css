@@ -1,0 +1,113 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #0b5ed7;
+  color: white;
+}
+
+.navbar nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #0b5ed7, #198754);
+  color: white;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 28px;
+  border: none;
+  background-color: white;
+  color: #198754;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.info-card {
+  background: white;
+  padding: 30px;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+nav button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  text-decoration: underline;
+}
+/* Remove default link styling */
+.about-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* Card styling */
+.about-card {
+  background-color: white;
+  padding: 25px;
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  width: 250px;              /* Square width */
+  height: 250px;             /* Square height */
+  background-color: white;
+  border-radius: 20px;       /* Curved borders */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Hover effect */
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.help-card {
+  background-color: white;
+  padding: 25px;
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  width: 250px;              /* Square width */
+  height: 250px;             /* Square height */
+  background-color: white;
+  border-radius: 20px;       /* Curved borders */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+/* Hover effect */
+.help-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}

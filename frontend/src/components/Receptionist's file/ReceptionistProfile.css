@@ -1,0 +1,65 @@
+.receptionist-profile-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 40px;
+}
+
+.back-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.back-btn:hover {
+  background: #1e40af;
+}
+
+.receptionist-profile-page h2 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 25px;
+}
+
+.profile-form {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.profile-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.profile-form input,
+.profile-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.save-btn {
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #1e40af;
+}

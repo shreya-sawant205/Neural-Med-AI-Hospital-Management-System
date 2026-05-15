@@ -1,0 +1,155 @@
+.medical-records-container {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 40px;
+}
+
+
+.back-btn:hover {
+  background: #1d4ed8;
+}
+
+.medical-header {
+  display: flex;                /* Activates the alignment engine */
+  align-items: center;          /* Centers items vertically */
+  justify-content: space-between; /* Pushes text to LEFT and button to RIGHT */
+  background: #2563eb;          /* Standard Blue to match other pages */
+  color: white;
+  padding: 0 30px;              /* Side spacing */
+  /* Bleeds the header to the edges of the container padding */
+  margin: -40px -40px 30px -40px; 
+  height: 60px;
+}
+
+.medical-form {
+  max-width: 450px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.medical-form input,
+.medical-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.file-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.save-btn {
+  background: #2563eb;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #1d4ed8;
+}
+
+/* BLUE HEADER */
+.medical-header {
+  background: #3566d6;
+  color: white;
+  padding: 18px 30px;
+  position: relative;   /* IMPORTANT */
+}
+
+.medical-header h2 {
+  margin: 0;
+  padding: 0;
+  background: transparent;      /* Removes any grey/box background */
+  font-size: 20px;
+  font-weight: bold;            /* Bold white text */
+  color: white;
+  text-transform: uppercase;
+}
+
+
+/* TOP RIGHT BACK BUTTON */
+.medical-back-btn {
+  background: #2563eb;          /* Blue background matching the header */
+  color: white;
+  border: 1px solid white;      /* White pill outline */
+  
+  /* The size you wanted */
+  width: 75px;            
+  padding: 5px 0;         
+  
+  border-radius: 20px;          /* Precise rounded pill shape */
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.medical-back-btn:hover {
+  background: white;            /* Inverts colors on hover */
+  color: #2563eb;
+  text-decoration: none;
+}
+
+/* RECORDS SECTION (FULL CENTER FIX) */
+.records-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* This centers everything */
+  margin-top: 40px;
+}
+
+/* HEADING */
+.records-section h3 {
+  color: #2563eb;        /* Blue heading */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* LIST */
+.records-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;   /* ✅ left align */
+  width: 100%;
+  padding: 20px 40px;
+}
+
+/* CARD */
+.record-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+
+  width: 100%;        /* ✅ full width */
+  max-width: 100%;    /* ✅ no shrinking */
+  margin: 10px 0;     /* spacing between cards */
+}
+
+/* BUTTON */
+.download-btn {
+  margin-top: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* NO RECORD TEXT */
+.no-records {
+  text-align: center;
+  color: gray;
+}

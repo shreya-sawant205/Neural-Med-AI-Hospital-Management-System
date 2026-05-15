@@ -1,0 +1,13 @@
+# Backend ignores
+__pycache__/
+*.pyc
+db.sqlite3
+.env
+venv/
+
+# Frontend ignores
+node_modules/
+dist/
+build/
+.DS_Store
+*.mp4

@@ -1,0 +1,94 @@
+/* PAGE CONTAINER */
+.staff-container {
+  background: white;
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+/* BLUE HEADER BAR */
+.staff-container > .staff-header {
+  background-color: #2563eb;
+  color: white;
+  padding: 22px 30px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+
+/* HEADING */
+.staff-container > .staff-header h2 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: left;
+  color: white;
+}
+
+
+/* BACK BUTTON */
+.back-btn {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  color: #2563eb;
+  padding: 6px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.back-btn:hover {
+  background: #f3f4f6;
+}
+
+
+/* TABLE */
+.staff-table {
+  width: 100%;
+}
+
+
+/* ROW STYLE */
+.staff-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 10px;
+  border-bottom: 1px solid #e5e7eb;
+  background: white;
+}
+
+
+/* TABLE HEADER ROW */
+.staff-table .staff-header {
+  background: white;
+  color: #2563eb;        /* Blue text */
+  font-weight: bold;
+  border-bottom: 2px solid #2563eb;
+}
+ 
+
+/* TABLE DATA */
+.staff-row span {
+  flex: 1;
+  color: black;
+}
+
+
+/* EMAIL COLUMN WIDER */
+.staff-row span:nth-child(2) {
+  flex: 2;
+}
+
+
+/* HOVER EFFECT */
+.staff-row:hover {
+  background: #f5f7ff;
+}

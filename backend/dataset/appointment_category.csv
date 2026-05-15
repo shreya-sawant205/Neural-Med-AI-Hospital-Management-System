@@ -1,0 +1,31 @@
+symptoms,category
+severe chest pain and breathing difficulty,Emergency
+unconscious after road accident,Emergency
+heavy bleeding from injury,Emergency
+sudden stroke symptoms and numbness,Emergency
+heart attack signs and sweating,Emergency
+severe abdominal pain with vomiting blood,Emergency
+difficulty breathing and chest tightness,Emergency
+high fever with seizures,Emergency
+head injury after fall,Emergency
+severe allergic reaction with swelling,Emergency
+annual health checkup,Routine
+blood pressure monitoring visit,Routine
+diabetes follow up appointment,Routine
+pregnancy regular checkup,Routine
+thyroid routine testing,Routine
+cholesterol test appointment,Routine
+post surgery follow up,Routine
+vaccination appointment,Routine
+regular pediatric checkup,Routine
+routine eye examination,Routine
+mild fever and cough,Normal
+common cold and sore throat,Normal
+slight headache since morning,Normal
+body pain and weakness,Normal
+minor skin rash and itching,Normal
+stomach pain after eating,Normal
+mild back pain,Normal
+seasonal flu symptoms,Normal
+mild allergy symptoms,Normal
+light dizziness occasionally,Normal
