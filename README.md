@@ -1,3 +1,9 @@
+[Home Screen] <img width="1920" height="1080" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/9bb39b9f-f015-40b7-88e9-ef5f1ad59d6b" />
+[Login Screen] <img width="1920" height="1080" alt="Screenshot (78)" src="https://github.com/user-attachments/assets/7f283711-3278-4bbf-8921-d86954bdd09c" />
+[Patient Dashboard] <img width="1920" height="1080" alt="Screenshot (199)" src="https://github.com/user-attachments/assets/afcb2cfe-0885-4a9e-91e4-fb4764c0beea" />
+[Book Appointment Screen] <img width="1920" height="1080" alt="Screenshot (200)" src="https://github.com/user-attachments/assets/dba4536b-0dc0-4221-b70d-11238c5aa36e" />
+
+
 *Neural med-AI Enabled Hospital Management System*
 ## *Project Overview*
 Developed as a collaborative group initiative, this *Hospital Management System (HMS)* is a comprehensive digital solution designed to optimize healthcare workflows. By integrating traditional administrative modules with intelligent data processing, the system aims to improve patient care and operational efficiency within a hospital environment.
